@@ -1,0 +1,148 @@
+.tab {
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.inputBox {
+    border: 1px solid lightslategrey;
+    margin-left: 550px;
+    width: 350px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 5px;
+    height: 300px;
+}
+
+.head h1 {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-weight: normal;
+}
+
+.label {
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.label input {
+    margin-top: 5px;
+    width: 300px;
+    height: 25px;
+}
+
+.label input:hover{
+    box-shadow: 0px 0px 5px rgb(123, 240, 240);
+}
+
+.btn button {
+    margin-left: 21px;
+    margin-top: 15px;
+    width: 310px;
+    height: 32px;
+    background-color: #f8d640;
+    border-radius: 6px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn button:hover{
+    background-color: #f7ca00;
+}
+
+.codn {
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.codn a {
+    text-decoration: none;
+}
+
+.option {
+    margin-left: 20px;
+}
+
+.txt{
+    color: grey;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 548px;
+    margin-right: 574px;
+}
+
+.txt::before, .txt::after{
+    flex: 1;
+    content: '';
+    padding: 0.5px;
+    background-color: rgb(175, 174, 174);
+    margin: 5px;
+}
+
+.btn2 button{
+    margin-top: -12px;
+    margin-left: 552px;
+    width: 360px;
+    height: 32px;
+    background-color: white;
+    border-radius: 6px;
+    border-color: whitesmoke;
+    cursor: pointer;
+}
+
+.bdr {
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, rgba(255,0,0,0), rgb(220, 220, 220), rgba(255,0,0,0)) 1 0 0 0;    
+    height: 44px;
+    width: 100%;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), whitesmoke, rgba(255,0,0,0));
+}
+
+.terms {
+    margin-top: -20px;
+    color: rgb(26, 103, 171);
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    justify-content: space-evenly;
+    padding-left: 540px;
+    padding-right: 560px;
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+
+.terms a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(26, 103, 171);
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    color: rgb(148, 148, 133);
+    font-size: 13px;
+    padding-top: 12px;
+    height: 108px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), whitesmoke, rgba(255,0,0,0));
+}
+
+.cc {
+    margin-right: 2px;
+}
+
+.inc {
+    margin-top: -12px;
+}
